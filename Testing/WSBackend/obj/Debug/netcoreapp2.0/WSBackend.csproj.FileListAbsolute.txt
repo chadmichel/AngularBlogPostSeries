@@ -1,0 +1,11 @@
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/bin/Debug/netcoreapp2.0/WSBackend.deps.json
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/bin/Debug/netcoreapp2.0/WSBackend.runtimeconfig.json
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/bin/Debug/netcoreapp2.0/WSBackend.runtimeconfig.dev.json
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/bin/Debug/netcoreapp2.0/WSBackend.dll
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/bin/Debug/netcoreapp2.0/WSBackend.pdb
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.csproj.CoreCompileInputs.cache
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.AssemblyInfoInputs.cache
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.AssemblyInfo.cs
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.dll
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.pdb
+/Users/chad/Projects/AngularBlogPostSeries/WSCall/WSBackend/obj/Debug/netcoreapp2.0/WSBackend.csprojResolveAssemblyReference.cache
