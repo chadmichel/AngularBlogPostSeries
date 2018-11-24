@@ -1,0 +1,19 @@
+
+<form>
+  <div class="form-group">
+    <label>First</label>
+    <input type="text" class="form-control" name="first" [(ngModel)]="first" >
+  </div>
+  <div class="form-group">
+    <label>Last</label>
+    <input type="text" class="form-control" name="last" [(ngModel)]="last">
+  </div>
+  <div class="form-group">
+    <label>Twitter</label>
+    <input type="text" class="form-control" name="twitter" [(ngModel)]="twitter">
+  </div>
+
+  <button type="button" class="btn btn-primary" (click)="save()">
+    Save
+  </button>
+</form>

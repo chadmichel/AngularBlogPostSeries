@@ -1,0 +1,18 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Twitter</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr *ngFor="let c of contacts" (click)="openClient(c.id)">    
+          <td>{{c.first}}</td>
+          <td>{{c.last}}</td>
+          <td>{{c.twitter}}</td>
+      </tr>
+
+    </tbody>
+  </table>
