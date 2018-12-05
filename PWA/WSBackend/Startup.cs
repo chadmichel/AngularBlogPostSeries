@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+
 
 namespace WSBackend
 {
@@ -32,6 +36,8 @@ namespace WSBackend
                     .AllowAnyMethod()
                     .AllowAnyHeader();
             }));
+            
+            
 
             services.AddSwaggerGen(c =>
                 {
@@ -58,10 +64,31 @@ namespace WSBackend
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIV1");
             });
 
+            app.UseFileServer();
             app.UseMvc();
+            
+            
+/*            app.UseSpa(spa =>
+            {
+                // To learn more about options for serving an Angular SPA from ASP.NET Core,
+                // see https://go.microsoft.com/fwlink/?linkid=864501
+
+                spa.Options.SourcePath = "ClientApp";
+
+                if (env.IsDevelopment())
+                {                    
+                    spa.UseAngularCliServer(npmScript: "start");
+                }
+            });*/
 
             app.UseCors(x => {
                 x.AllowAnyOrigin();
+            });
+            
+            app.Run( async (context) =>
+            {
+                context.Response.ContentType = "text/html";
+                await context.Response.SendFileAsync(Path.Combine(env.WebRootPath,"index.html"));
             });
         }
     }

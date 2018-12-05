@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_WSBackend.2135727582.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientApp" t="Include">
+        <e p=".editorconfig" t="Include" />
+        <e p=".gitignore" t="Include" />
+        <e p="angular.json" t="Include" />
+        <e p="e2e" t="Include">
+          <e p="protractor.conf.js" t="Include" />
+          <e p="src" t="Include">
+            <e p="app.e2e-spec.ts" t="Include" />
+            <e p="app.po.ts" t="Include" />
+          </e>
+          <e p="tsconfig.e2e.json" t="Include" />
+        </e>
+        <e p="ngsw-config.json" t="Include" />
+        <e p="node_modules" t="ExcludeRecursive">
+          <e p="@angular/animations" t="IncludeRecursive" />
+          <e p="@angular/cli" t="IncludeRecursive" />
+          <e p="@angular/common" t="IncludeRecursive" />
+          <e p="@angular/compiler" t="IncludeRecursive" />
+          <e p="@angular/compiler-cli" t="IncludeRecursive" />
+          <e p="@angular/core" t="IncludeRecursive" />
+          <e p="@angular/forms" t="IncludeRecursive" />
+          <e p="@angular/http" t="IncludeRecursive" />
+          <e p="@angular/platform-browser" t="IncludeRecursive" />
+          <e p="@angular/platform-browser-dynamic" t="IncludeRecursive" />
+          <e p="@angular/PWA" t="IncludeRecursive" />
+          <e p="@angular/router" t="IncludeRecursive" />
+          <e p="@angular/service-worker" t="IncludeRecursive" />
+          <e p="@angular-devkit/build-angular" t="IncludeRecursive" />
+          <e p="@types" t="IncludeRecursive">
+            <e p="jasmine" t="IncludeRecursive" />
+            <e p="jasminewd2" t="IncludeRecursive" />
+            <e p="node" t="IncludeRecursive" />
+          </e>
+          <e p="codelyzer" t="IncludeRecursive" />
+          <e p="core-js" t="IncludeRecursive" />
+          <e p="jasmine-core" t="IncludeRecursive" />
+          <e p="jasmine-spec-reporter" t="IncludeRecursive" />
+          <e p="karma" t="IncludeRecursive" />
+          <e p="karma-chrome-launcher" t="IncludeRecursive" />
+          <e p="karma-coverage-istanbul-reporter" t="IncludeRecursive" />
+          <e p="karma-jasmine" t="IncludeRecursive" />
+          <e p="karma-jasmine-html-reporter" t="IncludeRecursive" />
+          <e p="protractor" t="IncludeRecursive" />
+          <e p="rxjs" t="IncludeRecursive" />
+          <e p="ts-node" t="IncludeRecursive" />
+          <e p="tslint" t="IncludeRecursive" />
+          <e p="zone.js" t="IncludeRecursive" />
+        </e>
+        <e p="package-lock.json" t="Include" />
+        <e p="package.json" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="src" t="Include">
+          <e p="app" t="Include">
+            <e p="app.component.css" t="Include" />
+            <e p="app.component.html" t="Include" />
+            <e p="app.component.spec.ts" t="Include" />
+            <e p="app.component.ts" t="Include" />
+            <e p="app.module.ts" t="Include" />
+            <e p="contact-detail" t="Include">
+              <e p="contact-detail.component.css" t="Include" />
+              <e p="contact-detail.component.html" t="Include" />
+              <e p="contact-detail.component.spec.ts" t="Include" />
+              <e p="contact-detail.component.ts" t="Include" />
+            </e>
+            <e p="contact-list" t="Include">
+              <e p="contact-list.component.css" t="Include" />
+              <e p="contact-list.component.html" t="Include" />
+              <e p="contact-list.component.spec.ts" t="Include" />
+              <e p="contact-list.component.ts" t="Include" />
+            </e>
+            <e p="contacts.service.spec.ts" t="Include" />
+            <e p="contacts.service.ts" t="Include" />
+            <e p="dto" t="Include">
+              <e p="Contact.ts" t="Include" />
+              <e p="contactfindresponse.ts" t="Include" />
+              <e p="contactlistresponse.ts" t="Include" />
+              <e p="contactsaveresponse.ts" t="Include" />
+            </e>
+          </e>
+          <e p="assets" t="Include">
+            <e p=".gitkeep" t="Include" />
+            <e p="icons" t="Include">
+              <e p="icon-128x128.png" t="Include" />
+              <e p="icon-144x144.png" t="Include" />
+              <e p="icon-152x152.png" t="Include" />
+              <e p="icon-192x192.png" t="Include" />
+              <e p="icon-384x384.png" t="Include" />
+              <e p="icon-512x512.png" t="Include" />
+              <e p="icon-72x72.png" t="Include" />
+              <e p="icon-96x96.png" t="Include" />
+            </e>
+          </e>
+          <e p="browserslist" t="Include" />
+          <e p="environments" t="Include">
+            <e p="environment.prod.ts" t="Include" />
+            <e p="environment.ts" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="index.html" t="Include" />
+          <e p="karma.conf.js" t="Include" />
+          <e p="main.ts" t="Include" />
+          <e p="manifest.json" t="Include" />
+          <e p="polyfills.ts" t="Include" />
+          <e p="styles.css" t="Include" />
+          <e p="test.ts" t="Include" />
+          <e p="tsconfig.app.json" t="Include" />
+          <e p="tsconfig.spec.json" t="Include" />
+          <e p="tslint.json" t="Include" />
+        </e>
+        <e p="tsconfig.json" t="Include" />
+        <e p="tslint.json" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="ContactController.cs" t="Include" />
+        <e p="ValuesController.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="WSBackend.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Startup.cs" t="Include" />
+      <e p="WSBackend.csproj" t="IncludeRecursive" />
+      <e p="WSBackend.sln" t="IncludeFlat" />
+      <e p="wwwroot" t="Include">
+        <e p="3rdpartylicenses.txt" t="Include" />
+        <e p="assets" t="Include">
+          <e p="icons" t="Include">
+            <e p="icon-128x128.png" t="Include" />
+            <e p="icon-144x144.png" t="Include" />
+            <e p="icon-152x152.png" t="Include" />
+            <e p="icon-192x192.png" t="Include" />
+            <e p="icon-384x384.png" t="Include" />
+            <e p="icon-512x512.png" t="Include" />
+            <e p="icon-72x72.png" t="Include" />
+            <e p="icon-96x96.png" t="Include" />
+          </e>
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="index.html" t="Include" />
+        <e p="main.6f869839c64d74885f57.js" t="Include" />
+        <e p="main.88866a91e9c213f0ecff.js" t="Include" />
+        <e p="main.js" t="Include" />
+        <e p="main.js.map" t="Include" />
+        <e p="manifest.json" t="Include" />
+        <e p="ngsw-worker.js" t="Include" />
+        <e p="ngsw.json" t="Include" />
+        <e p="polyfills.d1c7bf4a2ae7c3435f95.js" t="Include" />
+        <e p="polyfills.js" t="Include" />
+        <e p="polyfills.js.map" t="Include" />
+        <e p="runtime.ec2944dd8b20ec099bf3.js" t="Include" />
+        <e p="runtime.js" t="Include" />
+        <e p="runtime.js.map" t="Include" />
+        <e p="safety-worker.js" t="Include" />
+        <e p="styles.3bb2a9d4949b7dc120a9.css" t="Include" />
+        <e p="styles.js" t="Include" />
+        <e p="styles.js.map" t="Include" />
+        <e p="vendor.js" t="Include" />
+        <e p="vendor.js.map" t="Include" />
+        <e p="worker-basic.min.js" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

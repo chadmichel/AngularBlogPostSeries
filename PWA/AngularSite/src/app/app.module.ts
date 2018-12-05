@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 import { ContactDetailComponent } from './contact-detail/contact-detail.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 // add routes
 const appRoutes: Routes = [
@@ -31,9 +33,10 @@ const appRoutes: Routes = [
     // add RouterModule to imports
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true } 
+      { enableTracing: true, useHash: true } 
     ),
-    HttpClientModule
+    HttpClientModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
