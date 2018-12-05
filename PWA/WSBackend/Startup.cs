@@ -64,32 +64,18 @@ namespace WSBackend
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "APIV1");
             });
 
+            // We need to add this line to return static files.
+            // This will return the index.html file when a GET request is made to /
             app.UseFileServer();
+            
+            // Add support for standard MVC
             app.UseMvc();
             
-            
-/*            app.UseSpa(spa =>
-            {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
-                spa.Options.SourcePath = "ClientApp";
-
-                if (env.IsDevelopment())
-                {                    
-                    spa.UseAngularCliServer(npmScript: "start");
-                }
-            });*/
 
             app.UseCors(x => {
                 x.AllowAnyOrigin();
             });
             
-            app.Run( async (context) =>
-            {
-                context.Response.ContentType = "text/html";
-                await context.Response.SendFileAsync(Path.Combine(env.WebRootPath,"index.html"));
-            });
         }
     }
 }
