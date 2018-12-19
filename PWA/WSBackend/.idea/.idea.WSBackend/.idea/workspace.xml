@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9804df-6f4a-44ee-bdbd-4ed607b4f603" name="Default Changelist" comment="" />
+    <list default="true" id="9f9804df-6f4a-44ee-bdbd-4ed607b4f603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AngularSite/ngsw-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AngularSite/ngsw-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngularSite/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngularSite/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WSBackend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WSBackend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/WSBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/WSBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/WSBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp2.1/WSBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/WSBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/WSBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/WSBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp2.1/WSBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/ngsw.json" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/ngsw.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +28,20 @@
         <entry file="file://$PROJECT_DIR$/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="32" />
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
               <folding>
-                <marker date="1543810961281" expanded="false" signature="6:469" ph="..." />
-                <marker date="1543810961281" expanded="true" signature="491:2819" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="577:640" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="863:1322" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="974:1120" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="1190:1310" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="1557:1634" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="1843:1943" ph="{...}" />
-                <marker date="1543810961281" expanded="true" signature="2032:2476" ph="/* app.UseSpa(spa =&gt; ... */" />
-                <marker date="1543810961281" expanded="true" signature="2507:2558" ph="{...}" />
+                <marker date="1543984342738" expanded="false" signature="6:469" ph="..." />
+                <marker date="1543984342738" expanded="true" signature="491:2338" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="518:2336" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="577:640" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="863:1322" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="974:1120" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="1190:1310" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="1510:2330" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="1557:1634" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="1843:1943" ph="{...}" />
+                <marker date="1543984342738" expanded="true" signature="1959:2094" ph="/* We need to add this line to return static files. ... */" />
+                <marker date="1543984342738" expanded="true" signature="2254:2305" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/wwwroot/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="367" column="63" lean-forward="true" selection-start-line="367" selection-start-column="63" selection-end-line="367" selection-end-column="63" />
+              <caret line="367" column="63" selection-start-line="367" selection-start-column="63" selection-end-line="367" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -125,9 +136,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,12 +236,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543074533011</updated>
       <workItem from="1543074535822" duration="4672000" />
-      <workItem from="1543783251703" duration="2762000" />
+      <workItem from="1543783251703" duration="3692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7434000" />
+    <option name="totallyTimeSpent" value="8364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,7 +263,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4957265" visible="true" weight="0.2642857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4945055" visible="true" weight="0.2642857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -265,8 +275,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="11" />
       <window_info anchor="bottom" id="REST Client" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50427353" side_tool="true" visible="true" weight="0.2642857" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.495116" weight="0.32959184" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50549453" side_tool="true" visible="true" weight="0.2642857" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.493895" weight="0.32959184" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -328,7 +338,7 @@
     <entry file="file://$PROJECT_DIR$/wwwroot/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="367" column="63" lean-forward="true" selection-start-line="367" selection-start-column="63" selection-end-line="367" selection-end-column="63" />
+          <caret line="367" column="63" selection-start-line="367" selection-start-column="63" selection-end-line="367" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -348,18 +358,20 @@
     <entry file="file://$PROJECT_DIR$/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="32" />
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
           <folding>
-            <marker date="1543810961281" expanded="false" signature="6:469" ph="..." />
-            <marker date="1543810961281" expanded="true" signature="491:2819" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="577:640" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="863:1322" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="974:1120" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="1190:1310" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="1557:1634" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="1843:1943" ph="{...}" />
-            <marker date="1543810961281" expanded="true" signature="2032:2476" ph="/* app.UseSpa(spa =&gt; ... */" />
-            <marker date="1543810961281" expanded="true" signature="2507:2558" ph="{...}" />
+            <marker date="1543984342738" expanded="false" signature="6:469" ph="..." />
+            <marker date="1543984342738" expanded="true" signature="491:2338" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="518:2336" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="577:640" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="863:1322" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="974:1120" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="1190:1310" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="1510:2330" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="1557:1634" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="1843:1943" ph="{...}" />
+            <marker date="1543984342738" expanded="true" signature="1959:2094" ph="/* We need to add this line to return static files. ... */" />
+            <marker date="1543984342738" expanded="true" signature="2254:2305" ph="{...}" />
           </folding>
         </state>
       </provider>
