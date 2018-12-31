@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <label>User</label>
+    </div>
+    <div class="col-md">
+      <input type="user" class="form-control" [(ngModel)]="user">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+      <label>Code</label>
+    </div>
+    <div class="col-md">
+      <input type="text" class="form-control" [(ngModel)]="code">
+    </div>
+  </div>
+
+  <div class="row">
+    <button type="submit" class="btn btn-primary" (click)="verify()">Confirm</button>
+  </div>
+
+  <div>
+    <a href="/login">Go to Login Page</a>
+  </div>
+  <div>
+    <a href="/register">Go to Register Page</a>
+  </div>
+</div>

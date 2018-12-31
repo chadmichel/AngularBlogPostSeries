@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <label>User</label>
+    </div>
+    <div class="col-md">
+      <input type="email" class="form-control" [(ngModel)]="email">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md">
+      <label>Password</label>
+    </div>
+    <div class="col-md">
+      <input type="password" class="form-control" [(ngModel)]="password">
+    </div>
+  </div>
+
+  <div class="row">
+    <button type="submit" class="btn btn-primary" (click)="login()">Login</button>
+  </div>
+
+  <div class="row">
+    <a href="/register">Go to Register Page</a>
+  </div>
+  <div class="row">
+    <a href="/verify">Go to Verify Page</a>
+  </div>
+</div>
